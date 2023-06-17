@@ -1,11 +1,11 @@
-About r-paws.end.user.computing
-===============================
+About r-paws.end.user.computing-feedstock
+=========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.end.user.computing-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.end.user.computing-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' end user computing services, including collaborative document editing, mobile intranet, and more <https://aws.amazon.com/>.
 
