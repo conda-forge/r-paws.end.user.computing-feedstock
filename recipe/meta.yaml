@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.end.user.computing_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.end.user.computing/paws.end.user.computing_{{ version }}.tar.gz
-  sha256: 9585e4028924cc63106ba5d5eebcea8752703a3fbb4adc24763e0594f49de563
+  sha256: 1e842783c76faa51e4fbfc584eeae090b8e8056c1fe5341d6c9682369205a59c
 
 build:
   merge_build_host: true  # [win]
