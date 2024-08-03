@@ -1,6 +1,5 @@
 {% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-paws.end.user.computing
@@ -13,8 +12,7 @@ source:
   sha256: 1e842783c76faa51e4fbfc584eeae090b8e8056c1fe5341d6c9682369205a59c
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
